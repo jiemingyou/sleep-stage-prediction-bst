@@ -56,7 +56,7 @@ def main():
     )
 
     # Classification report
-    print_classification_report(y_tests, y_preds)
+    print(print_classification_report(y_tests, y_preds))
 
     # Feature importances
     plot_feature_importances(np.array(feature_importances).mean(axis=0), save=True)
