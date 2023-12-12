@@ -19,6 +19,7 @@ Clone the repo
 ```sh
 git clone https://github.com/jiemingyou/sleep-stage-prediction-bst.git
 cd sleep-stage-prediction-bst
+pip install -r requirements.txt
 ```
 
 Run the main script to process the data and train the model
